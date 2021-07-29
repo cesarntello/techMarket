@@ -4,7 +4,7 @@ import NavBar from './components/NavBar.js';
 import banner from './img/banner.jpg';
 
 function App() {
-  return (
+   return (
     <div className="App">
      <img scr={banner} alt="banner"/>
      <NavBar/>
