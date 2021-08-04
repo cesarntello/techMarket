@@ -8,6 +8,7 @@ import {
   Image,
 } from 'react-bootstrap';
 
+import CartWidget from "./CartWidget";
 
 export default function NavBar(){
     return(
@@ -27,15 +28,17 @@ export default function NavBar(){
               {/* <NavDropdown.Divider /> */}
               <NavDropdown.Item href="#action/3.4">Software</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#features">Medios de pago</Nav.Link>
+            <Nav.Link href="#pricing">Quienes somos</Nav.Link>
             
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
+          <CartWidget />
+            <Nav.Link href="#deets">Iniciar sesión</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
-              Dank memes
+            Ayuda        
             </Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
         </Container>
