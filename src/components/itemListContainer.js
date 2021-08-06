@@ -1,8 +1,12 @@
 import React from "react";
-
+import CardComponent from './CardComponent.js';
 
 export default function ItemListContainer(){
 return(
-<h1>Bienvenidos a nuestra tienda </h1>
+    
+        
+
+        <CardComponent/>
+
 )
 }

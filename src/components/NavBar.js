@@ -33,7 +33,7 @@ export default function NavBar(){
             
           </Nav>
           <Nav>
-          <CartWidget />
+          <CartWidget/> 
             <Nav.Link href="#deets">Iniciar sesión</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
             Ayuda        
