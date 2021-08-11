@@ -68,7 +68,7 @@ const cardsProduct = [
           dataCards(dataResolve);
         })
         .catch((error) => {
-          console.log("err", error);
+          console.log("error", error);
         });
     }, [dataCards]);
     // useEffect(() => {
