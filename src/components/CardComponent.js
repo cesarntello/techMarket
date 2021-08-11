@@ -12,10 +12,10 @@ export default function CardComponent(props) {
 
   return (
     <React.Fragment>
-      <h1>contador: {count}</h1>
+      <p>Agregar: {count}</p>
       {props.count2}
-      <Button variant="primary" text="sumar" cuandohagoClick={() => setCount(count + 1)} />
-      <Button text="restar" cuandohagoClick={() => setCount(count - 1)} />
+      <Button variant="primary" text="+" cuandohagoClick={() => setCount(count + 1)} />
+      <Button text="-" cuandohagoClick={() => setCount(count - 1)} />
     </React.Fragment>
   );
 }

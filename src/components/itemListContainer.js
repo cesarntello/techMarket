@@ -5,8 +5,10 @@ export default function ItemListContainer(){
 return(
     
         
-
+        <div>
         <CardComponent/>
-
-)
+        
+       
+        </div>
+);
 }
